@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Blog</title>
+    <link rel="stylesheet" href="assets/css/form.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>My Personal Blog</h1>
+        <div class="row toggle">
+            <div class="col">
+                <p>Light Mode</p>
+            </div>
+            <label class="switch col">
+                <input id="toggle" type="checkbox">
+                <span class="slider round"></span>
+                <div class="col">
+                </div>
+            </label>
+            <div class="col">
+                <p>Dark Mode</p>
+            </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="left">
+                <img src="assets/Images/1140x641.jpg" width="100%" />
+            </div>
+            <form id="blogForm">
+                <ul>
+
+                    <li><h2>What's On Your Mind?</h2></li>
+
+                    <li><label for="username">Username:</label></li>
+
+                    <li><input type="text" id="username" required></li>
+
+                    <li><label for="title">Blog Title:</label></li>
+
+                    <li> <input type="text" id="title" required></li>
+
+                    <li><label for="content">Blog Content:</label></li>
+
+                    <li><textarea id="content" name="content" rows="20" cols="50" required></textarea></li>
+
+                    <li><button type="submit">Submit</button></li>
+                </ul>
+            </form>
+    </main>
+
+    <script src="assets/js/logic.js"></script>
+    <script src="assets/js/form.js"></script>
+    </div>
+</body>
+
+</html>

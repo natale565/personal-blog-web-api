@@ -1,0 +1,19 @@
+.blog-post {
+  margin: 10px; /* Add margin for spacing */
+}
+
+.post-box {
+  padding: 10px;
+  border: 3px solid #2c70de;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  text-align: center; /* Center the content */
+  width: 50%;
+  
+  
+}
+
+.h2 {
+
+  text-align: center;
+}

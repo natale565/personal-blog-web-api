@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog Posts</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/blog.css">
+</head>
+<body>
+    <!-- Header with toggle switch -->
+    <header>
+        <button id="backButton">Back</button>
+        <div class="row toggle">
+            <div class="col">
+                <p>Light Mode</p>
+            </div>
+            <label class="switch col">
+                <input id="toggle" type="checkbox">
+                <span class="slider round"></span>
+                <div class="col">
+                </div>
+            </label>
+            <div class="col">
+                <p>Dark Mode</p>
+            </div>
+            </label>
+    </header>
+
+    <!-- Main content area for blog posts -->
+    <body id="blogPosts">
+        <h1>Blog Posts</h1>
+        <div id="blogContainer"></div>
+
+        <!-- Blog posts will be dynamically added here -->
+
+
+    <!-- Footer with link to developer's portfolio -->
+    <footer>
+        <a href="#">Developer's Portfolio</a>
+    </footer>
+
+    <!-- JavaScript files -->
+    <script src="assets/js/logic.js"></script>
+    <script src="assets/js/blog.js"></script>
+</body>
+
+
+</html>

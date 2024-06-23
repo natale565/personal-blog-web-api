@@ -1,19 +1,66 @@
+
+/* Font styling  */
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+MX:wght@100..400&display=swap');
+
 .blog-post {
   margin: 10px; /* Add margin for spacing */
 }
 
 .post-box {
   padding: 10px;
-  border: 3px solid #2c70de;
+  border: 3px solid #883ed8;
   border-radius: 5px;
   background-color: #f9f9f9;
   text-align: center; /* Center the content */
   width: 50%;
-  
+  margin-left: auto;
+  margin-right: auto;
   
 }
 
-.h2 {
+.h1{
+  font-family: "playwrite mx";
+  font-size: xxx-large;
+}
 
-  text-align: center;
+.h2 {
+color: black;
+  text-decoration: underline;
+  
+}
+
+.p {
+  color: rgb(0, 0, 0);
+  font-size: large;
+  
+}
+
+.span{
+  text-decoration: underline;
+  font-family: "playwrite MX";
+  font-size:small;
+  color: #883ed8;
+}
+
+#backButton{
+  display: block;
+  padding: 10px 20px;
+  background-color: #024554;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+
+#backButton:hover{
+  background-color: #883ed8;
+}
+
+a {
+ 
+  font-weight: 600;
+}
+
+a:hover{
+  color: #883ed8;
 }

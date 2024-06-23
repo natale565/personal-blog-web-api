@@ -11,11 +11,12 @@
 
 <body>
     <header>
-        <h1>My Personal Blog</h1>
+        <h1 class="h1">My Personal Blog</h1>
         <div class="row toggle">
             <div class="col">
                 <p>Light Mode</p>
             </div>
+            
             <label class="switch col">
                 <input id="toggle" type="checkbox">
                 <span class="slider round"></span>
@@ -35,7 +36,7 @@
             <form id="blogForm">
                 <ul>
 
-                    <li><h2>What's On Your Mind?</h2></li>
+                    <li><h2 class="h2">What's On Your Mind?</h2></li>
 
                     <li><label for="username">Username:</label></li>
 
@@ -49,7 +50,7 @@
 
                     <li><textarea id="content" name="content" rows="20" cols="50" required></textarea></li>
 
-                    <li><button type="submit">Submit</button></li>
+                    <li><button type="submit" id="save">Submit</button></li>
                 </ul>
             </form>
     </main>

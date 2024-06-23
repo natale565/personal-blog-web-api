@@ -9,7 +9,7 @@ document.getElementById('blogForm').addEventListener('submit', function(event) {
         alert('Please complete all fields');
         return;
     }
-    
+     
     const post = { username, title, content };
     let posts = JSON.parse(localStorage.getItem('posts')) || [];
     posts.push(post);

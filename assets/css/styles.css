@@ -20,7 +20,7 @@ body.dark-mode a {
     color: azure;
   }
   body.dark-mode  a:hover {
-    color: #c2c0a6;
+    color: #883ed8;
   }
   
   body.dark-mode  header {
@@ -166,12 +166,9 @@ ul {
   }
   
   input:checked + .slider {
-    background-color: rgb(29, 128, 210);
+    background-color: #883ed8;
   }
   
-  input:focus + .slider {
-    box-shadow: 0 0 1px rgb(29, 128, 210);
-  }
   
   input:checked + .slider:before {
     -webkit-transform: translateX(26px);

@@ -28,11 +28,11 @@
 
 - Screenshots of Webpages:
 
-![blog entry light mode](Assets/Images/personal-blog-p1.png)
-![blog entry required feild message](Assets/Images/personal-blog-missing-field.png)
-![Blog entry dark mode](Assets/Images/personal-blog-p2.png)
-![blog page light mode](Assets/Images/personal-blog-p4.png)
-![Blog page dark mode](Assets/Images/personal-blog-p3.png)
+![blog entry light mode](assets/Images/personal-blog-p1.png)
+![blog entry required feild message](assets/Images/personal-blog-missing-field.png)
+![Blog entry dark mode](assets/Images/personal-blog-p2.png)
+![blog page light mode](assets/Images/personal-blog-p4.png)
+![Blog page dark mode](assets/Images/personal-blog-p3.png)
 
 
 
